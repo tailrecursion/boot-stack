@@ -16,6 +16,7 @@
 
 (defn creation [stack template]
   (-> (CreateStackRequest.)
+      (.withCapabilities ["CAPABILITY_IAM" "CAPABILITY_NAMED_IAM"])
       (.withStackName stack)
       (.withTemplateBody (generate-string template))))
 
