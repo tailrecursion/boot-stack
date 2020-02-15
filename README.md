@@ -4,7 +4,7 @@ a boot task for deploying aws cloud formation templates
 
 [](dependency)
 ```clojure
-[tailrecursion/boot-stack "0.1.0"] ;; latest release
+[tailrecursion/boot-stack "0.1.1"] ;; latest release
 ```
 [](/dependency)
 

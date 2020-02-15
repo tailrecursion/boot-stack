@@ -6,8 +6,8 @@
     [boot.util :as util]))
 
 (def ^:private deps
-  '[[cheshire                                  "5.8.1"]
-    [com.amazonaws/aws-java-sdk-cloudformation "1.11.419"]])
+  '[[cheshire                                  "5.10.0"]
+    [com.amazonaws/aws-java-sdk-cloudformation "1.11.723"]])
 
 (defn- warn-deps [deps]
   (let [conflict (delay (util/warn "Overriding project dependencies, using:\n"))]
